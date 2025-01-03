@@ -1,0 +1,27 @@
+{
+  "name": "URLShortener",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "repository": "https://github.com/ZeyadMousa1/URLShortener.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "body-parser": "^1.20.3",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "yup": "^1.6.1"
+  }
+}
